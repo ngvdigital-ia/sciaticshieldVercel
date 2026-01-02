@@ -13,7 +13,9 @@
 <link rel="preconnect" href="https://api.vturb.com.br" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></noscript>
 <script>
   window.pixelId = "693b2d8687c5adf0f2c53dad";
   var a = document.createElement("script");
@@ -461,18 +463,18 @@
 
         <!-- Logos de Mídia -->
         <div class="media-logos">
-            <img src="https://gelatinfr.online/ztes3-fpnp-quiz-gelatin1-drops-pit32-utm-cart/img/news-logos.webp" class="img_adv" alt="News Logos" />
+            <img src="https://gelatinfr.online/ztes3-fpnp-quiz-gelatin1-drops-pit32-utm-cart/img/news-logos.webp" class="img_adv" alt="News Logos" width="900" height="60" loading="lazy" decoding="async" />
         </div>
 
-        <!-- Seção de Comentários -->
-        <div id="comentarios">
+        <!-- Seção de Comentários (carrega com delay para performance) -->
+        <div id="comentarios" style="opacity: 0; transition: opacity 0.5s ease;">
             <div class="sessao fb">
                 <span id="comentarios-quantidade">7 Comments</span>
                 <div class="divider"></div>
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/2243731147_huge.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/2243731147_huge.jpg" width="50" height="50" alt="Margaret H.">
                         <div>
                             <h6>Margaret H. said:</h6>
                             <p>I honestly thought I'd never get rid of that burning pain down my leg. Since I started doing this Okinawa Functional Yoga, I can get out of bed in the morning without holding onto the nightstand for dear life. Yesterday I actually tied my shoes standing up for the first time in YEARS. It feels like I got my body back.</p>
@@ -485,7 +487,7 @@
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/483c782969e66bf3716a9666f7c8f3de.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/483c782969e66bf3716a9666f7c8f3de.jpg" width="50" height="50" alt="Linda S.">
                         <div>
                             <h6>Linda S. said:</h6>
                             <p>I was the "can someone grab that for me?" mom because bending down was torture. After a few weeks with Okinawa Functional Yoga, I caught myself squatting to pick up a heavy laundry basket with ZERO fear. It's crazy how these simple movements made everyday stuff feel easy again. I don't plan my whole day around my pain anymore.</p>
@@ -498,7 +500,7 @@
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/avatars-000652081152-ddbg70-t500x500.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/avatars-000652081152-ddbg70-t500x500.jpg" width="50" height="50" alt="Robert M.">
                         <div>
                             <h6>Robert M. said:</h6>
                             <p>Climbing stairs used to be my nightmare… one step, stop, breathe, pain. Now I go up and down at work like a normal person, no holding the railing like I'm 90. The only thing I changed was adding this Okinawa Functional Yoga routine at night. I didn't just lose pain, I got my confidence back.</p>
@@ -511,7 +513,7 @@
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/b0e194f5d5274c84dd64523b9ab046a1.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/b0e194f5d5274c84dd64523b9ab046a1.jpg" width="50" height="50" alt="James T.">
                         <div>
                             <h6>James T. said:</h6>
                             <p>I spend hours driving for work and my lower back would be on fire by the time I got home. After starting Okinawa Functional Yoga, I noticed I could do a full day on the road, come home, and STILL have energy to play with my kids on the floor. For me that's the real proof it works: I'm living my life again, not just surviving the day.</p>
@@ -524,7 +526,7 @@
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/4d6c919cb7dfde6592007cfcb5f7ade4.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/4d6c919cb7dfde6592007cfcb5f7ade4.jpg" width="50" height="50" alt="Patricia W.">
                         <div>
                             <h6>Patricia W. said:</h6>
                             <p>I used to avoid going to the grocery store alone because pushing the cart and lifting bags wrecked my back. A few weeks into Okinawa Functional Yoga and I realized I walked the whole store, carried everything in, and only noticed at night that… nothing hurt. It's like someone quietly turned off the pain switch in my body.</p>
@@ -537,7 +539,7 @@
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/unnamed.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/unnamed.jpg" width="50" height="50" alt="Barbara K.">
                         <div>
                             <h6>Barbara K. said:</h6>
                             <p>Sleeping was the worst part of my day. I'd wake up 3–4 times a night because of the sciatic pain, changing positions over and over. Since I started doing the Okinawa Functional Yoga moves before bed, I'm actually sleeping through the night. No pills, no weird gadgets, just my body finally cooperating.</p>
@@ -550,7 +552,7 @@
 
                 <div class="comentario">
                     <div class="comentario-corpo">
-                        <img loading="lazy" src="/ss/imagens_idosos/697e0dce8af49c156ce7cb0225b0922f.jpg">
+                        <img loading="lazy" decoding="async" fetchpriority="low" src="/ss/imagens_idosos/697e0dce8af49c156ce7cb0225b0922f.jpg" width="50" height="50" alt="Dorothy R.">
                         <div>
                             <h6>Dorothy R. said:</h6>
                             <p>I'm 63 and I really thought "this is just age" and I had to accept the pain. But after doing the Okinawa Functional Yoga routine consistently, I can sit on the floor with my grandkids, get up without help, and even do a little dancing in the kitchen again. It doesn't feel like a workout, it feels like my body remembering how it's supposed to move — without pain.</p>
@@ -624,6 +626,14 @@
         }, (35 * 60) * 1000); // 35 minutos
     }
     showElementsAfterDelay();
+
+    // Mostrar comentários após 2.5 segundos para melhorar performance inicial
+    setTimeout(function() {
+        var comentarios = document.getElementById('comentarios');
+        if (comentarios) {
+            comentarios.style.opacity = '1';
+        }
+    }, 2500);
 </script>
 </body>
 </html>
