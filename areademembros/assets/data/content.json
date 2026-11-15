@@ -1,0 +1,562 @@
+{
+  "config": {
+    "supportEmail": "{{SUPPORT_EMAIL}}",
+    "storyEmail": "{{STORY_EMAIL}}",
+    "analyticsEndpoint": "",
+    "programDays": 60,
+    "levelUpDays": [15, 30]
+  },
+  "warningSigns": [
+    "Sharp pain, or pain that is getting worse",
+    "New tingling, numbness, or weakness in your legs",
+    "Pain that travels further down your leg",
+    "Dizziness, chest pain, or shortness of breath"
+  ],
+  "emergencySigns": [
+    "Loss of control of your bladder or bowel",
+    "Numbness in the groin or inner thighs",
+    "Sudden weakness in your legs",
+    "Back pain after a fall or an accident",
+    "Back pain together with a fever"
+  ],
+  "talkToDoctorFirst": [
+    "You have a herniated disc, spinal stenosis, or another diagnosed spine condition",
+    "You are pregnant",
+    "You had surgery recently",
+    "You have osteoporosis",
+    "You are not sure it is safe for you"
+  ],
+  "safety": {
+    "intro": "The BackSwitch Member Area is general information and gentle exercise. It is not medical advice, diagnosis, or treatment.",
+    "sections": [
+      {
+        "title": "Talk to your doctor or physical therapist first if:",
+        "items": [
+          "You have a herniated disc, spinal stenosis, or another diagnosed spine condition.",
+          "You are pregnant.",
+          "You had surgery recently.",
+          "You have osteoporosis.",
+          "You are not sure that it is safe for you."
+        ]
+      },
+      {
+        "title": "Keep your care plan",
+        "items": [
+          "Do not stop or change medicines, physical therapy, injections, or any other care without talking to your doctor.",
+          "Follow your doctor's plan. This routine is meant to sit alongside it."
+        ]
+      },
+      {
+        "title": "Stop right away and get care if you feel:",
+        "items": [
+          "Sharp pain, or pain that is getting worse.",
+          "New tingling, numbness, or weakness in your legs.",
+          "Pain that travels further down your leg.",
+          "Dizziness, chest pain, or shortness of breath."
+        ]
+      },
+      {
+        "title": "Call emergency services (911 in the US) if you have:",
+        "items": [
+          "Loss of control of your bladder or bowel.",
+          "Numbness in the groin or inner thighs.",
+          "Sudden weakness in your legs.",
+          "Back pain after a fall or an accident.",
+          "Back pain together with a fever."
+        ]
+      },
+      {
+        "title": "How to move",
+        "items": [
+          "Move slowly, keep the range small, and never force anything.",
+          "Light effort is normal. Pain is not.",
+          "Your diary is a personal record. It is not a medical test."
+        ]
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "id": 1,
+      "name": "Belly Breathing",
+      "short": "Slow breathing into your belly",
+      "seconds": 60,
+      "practices": "Calm, easy control of your breathing.",
+      "position": "Lie on your back with your knees bent and your feet flat on the floor, about hip-width apart. Rest one hand on your belly.",
+      "steps": [
+        "Relax your shoulders and your jaw.",
+        "Breathe in slowly through your nose for about 4 seconds. Let your belly rise under your hand.",
+        "Breathe out gently through your mouth for about 6 seconds.",
+        "Keep going at a calm, easy pace for the whole minute."
+      ],
+      "feel": "Your belly rising and falling. Your shoulders getting heavier and softer.",
+      "mistakes": [
+        "Breathing only into your chest.",
+        "Forcing the breath or holding it.",
+        "Lifting your shoulders with each breath."
+      ],
+      "gentle": "Use shorter breaths: about 3 seconds in and 4 seconds out. Rest whenever you like.",
+      "stopIf": "you feel dizzy, light-headed, or more short of breath than usual.",
+      "inst": "Hand on your belly. Breathe in slowly through your nose and let your belly rise. Breathe out gently for longer. Keep your shoulders soft and your pace easy.",
+      "instGentle": "Hand on your belly. Take short, easy breaths: about 3 seconds in and 4 seconds out. Keep your shoulders soft. Rest any time."
+    },
+    {
+      "id": 2,
+      "name": "Gentle Pelvic Tilt",
+      "short": "A small, soft rocking of your pelvis",
+      "seconds": 70,
+      "practices": "Smooth, small movement in your lower back.",
+      "position": "Lie on your back with your knees bent and your feet flat on the floor, about hip-width apart. Arms rest by your sides.",
+      "steps": [
+        "Breathe out and let your lower back rest lightly toward the floor. This is a tiny movement.",
+        "Breathe in and let your back return to its natural curve.",
+        "Rock slowly back and forth, small and smooth.",
+        "Keep your legs and shoulders relaxed."
+      ],
+      "feel": "A small, easy movement in your lower back and pelvis. No pinching.",
+      "mistakes": [
+        "Pushing hard into the floor.",
+        "Arching your back strongly.",
+        "Holding your breath.",
+        "Moving too fast."
+      ],
+      "gentle": "Make the movement even smaller. A tiny tilt is enough.",
+      "stopIf": "you feel sharp pain, pinching, or tingling in your back or legs.",
+      "inst": "As you breathe out, let your lower back rest gently toward the floor. As you breathe in, return to neutral. Keep the rocking small and slow.",
+      "instGentle": "Rock your pelvis in a very small, slow movement. Breathe out as you tilt and breathe in as you return. Smaller is fine."
+    },
+    {
+      "id": 3,
+      "name": "Core Draw-In",
+      "short": "A light activation of your deep belly muscles",
+      "seconds": 70,
+      "practices": "Gently switching on the deep muscles of your belly.",
+      "position": "Lie on your back with your knees bent and your feet flat on the floor, about hip-width apart.",
+      "steps": [
+        "Breathe in naturally.",
+        "Breathe out and gently draw your belly button toward your spine. Use about one-third of your effort.",
+        "Hold for 5 seconds and keep breathing normally.",
+        "Release slowly and rest. Then repeat."
+      ],
+      "feel": "A light tightening low in your belly, like a gentle hug. It is not a hard squeeze.",
+      "mistakes": [
+        "Holding your breath.",
+        "Squeezing too hard.",
+        "Pressing your back into the floor.",
+        "Tensing your neck and shoulders."
+      ],
+      "gentle": "Hold for 3 seconds instead of 5.",
+      "stopIf": "you cannot breathe normally during the hold, or you feel pain.",
+      "inst": "Breathe out and gently draw your belly in, using about one-third of your effort. Hold for 5 seconds and keep breathing. Release slowly, rest, then repeat.",
+      "instGentle": "Breathe out and gently draw your belly in. Hold for 3 seconds and keep breathing. Release slowly and rest, then repeat."
+    },
+    {
+      "id": 4,
+      "name": "Heel Slide",
+      "short": "Slide one heel while your belly stays gently active",
+      "seconds": 70,
+      "practices": "Keeping your trunk steady while a leg moves.",
+      "position": "Lie on your back with your knees bent and your feet flat on the floor. Start with your belly gently drawn in, as in the Core Draw-In.",
+      "steps": [
+        "Gently draw your belly in.",
+        "Slide one heel slowly away along the floor until that leg is partly straight.",
+        "Slide it back to the start.",
+        "Switch sides. Keep your belly gently active and your hips still."
+      ],
+      "feel": "Your belly keeping your trunk steady while one leg moves.",
+      "mistakes": [
+        "Letting your pelvis rock or your back arch as the leg slides.",
+        "Moving too fast.",
+        "Holding your breath."
+      ],
+      "gentle": "Slide your heel only a short way.",
+      "stopIf": "you feel pain in your back, hip, or leg, or tingling that spreads down your leg.",
+      "inst": "Gently draw your belly in. Slide one heel away along the floor, then back. Keep your hips still. Switch legs each time, slowly.",
+      "instGentle": "Slide one heel just a little way and back. Keep your belly gently active and your hips still. Switch legs each time."
+    },
+    {
+      "id": 5,
+      "name": "Small Bridge",
+      "short": "Lift your hips just a few centimeters",
+      "seconds": 70,
+      "practices": "Glute strength with support from your belly.",
+      "position": "Lie on your back with your knees bent and your feet flat on the floor, about hip-width apart.",
+      "steps": [
+        "Gently draw your belly in.",
+        "Squeeze your buttocks and lift your hips just an inch or two.",
+        "Pause for 1 to 2 seconds.",
+        "Lower slowly and repeat."
+      ],
+      "feel": "Your buttocks working and your belly staying firm. No strain in your lower back.",
+      "mistakes": [
+        "Lifting too high.",
+        "Arching your lower back.",
+        "Pushing hard with your toes.",
+        "Holding your breath."
+      ],
+      "gentle": "Only squeeze your buttocks. Do not lift your hips.",
+      "stopIf": "you feel pain in your back, tingling, or pain going down a leg.",
+      "inst": "Gently draw your belly in. Squeeze your buttocks and lift your hips only an inch or two. Pause, then lower slowly. Keep breathing.",
+      "instGentle": "Gently draw your belly in. Squeeze your buttocks without lifting your hips. Hold briefly, release, and repeat. Keep breathing."
+    },
+    {
+      "id": 6,
+      "name": "Slow March",
+      "short": "Lift one knee at a time with your belly gently active",
+      "seconds": 70,
+      "practices": "Steady control of your trunk.",
+      "position": "Lie on your back with your knees bent and your feet flat on the floor, about hip-width apart.",
+      "steps": [
+        "Gently draw your belly in.",
+        "Lift one foot slowly, keeping your knee bent.",
+        "Lower it with control, then lift the other foot.",
+        "Keep your hips level and still. Breathe normally."
+      ],
+      "feel": "Your trunk staying steady while your legs take turns.",
+      "mistakes": [
+        "Rocking your hips from side to side.",
+        "Lifting too high.",
+        "Going too fast.",
+        "Holding your breath."
+      ],
+      "gentle": "Lift your foot only a few centimeters off the floor.",
+      "stopIf": "you feel pain in your back, hip, or leg, or new tingling or numbness.",
+      "inst": "Gently draw your belly in. Lift one foot slowly, then lower it and lift the other. Keep your hips level and still. Breathe normally.",
+      "instGentle": "Gently draw your belly in. Lift one foot just a few centimeters, then lower it and lift the other. Keep your hips still."
+    }
+  ],
+  "firstDay": [
+    {
+      "title": "Check before you start",
+      "time": "About 2 min",
+      "text": "Read the warning signs on the Safety page. Then confirm that none of them apply to you."
+    },
+    {
+      "title": "Set up your space",
+      "time": "About 2 min",
+      "text": "Find a flat, firm surface, like a mat or a firm bed. Wear comfortable clothes and prop your phone up where you can see it."
+    },
+    {
+      "title": "Your first 7 minutes",
+      "time": "7 min",
+      "text": "Do your complete first session at the Gentle level. The timer will guide you through each step."
+    },
+    {
+      "title": "Log how you feel",
+      "time": "About 30 sec",
+      "text": "Rate your pain and stiffness from 0 to 10. This is the start of your personal diary."
+    },
+    {
+      "title": "Tomorrow morning",
+      "time": "About 1 min",
+      "text": "Log again when you wake up, then start day 2. You can also add a daily reminder to your phone calendar."
+    }
+  ],
+  "troubleshooting": {
+    "doctorLine": "If you have a diagnosed condition, check with your doctor or physical therapist first.",
+    "situations": [
+      {
+        "id": "mild-aches",
+        "title": "Mild, occasional lower-back aches",
+        "gentleOnly": false,
+        "who": "You feel a mild ache in your lower back now and then, and it does not stop you from your day.",
+        "adapt": [
+          "Use the Standard routine.",
+          "Do your session every day, or whenever the ache shows up.",
+          "Take short breaks to change position during the day."
+        ],
+        "skip": "Nothing in particular. Skip any movement that feels uncomfortable.",
+        "talk": "The ache gets stronger, lasts more than a few days, or comes with other symptoms."
+      },
+      {
+        "id": "morning-stiffness",
+        "title": "Morning stiffness",
+        "gentleOnly": false,
+        "who": "Your back feels stiff when you wake up and loosens up as you move around.",
+        "adapt": [
+          "Do movements 1 to 3 in bed before you get up.",
+          "Keep each movement small. Do not push your range.",
+          "Use the \"Mornings and getting up\" tips in the 101 Everyday Tips."
+        ],
+        "skip": "Skip the Small Bridge on very stiff mornings. Do your full session later in the day.",
+        "talk": "The stiffness lasts a long time each morning, or it is getting worse."
+      },
+      {
+        "id": "upper-back",
+        "title": "Upper-back tension",
+        "gentleOnly": false,
+        "who": "You feel tightness between your shoulder blades or in your neck and shoulders.",
+        "adapt": [
+          "Give extra time to Belly Breathing (movement 1).",
+          "Add a few breaths with soft, heavy shoulders between movements.",
+          "Use the \"One-minute resets\" tips for your shoulders and neck."
+        ],
+        "skip": "Skip any movement that makes your neck or shoulders feel tense.",
+        "talk": "You have pain in your chest, arm pain, or numbness in your hands."
+      },
+      {
+        "id": "sciatica-type",
+        "title": "Sciatica-type leg pain",
+        "gentleOnly": true,
+        "who": "You feel pain, tingling, or heaviness that runs from your back or hip down your leg.",
+        "adapt": [
+          "Use the Gentle level only.",
+          "Keep every movement small and slow.",
+          "Talk to your doctor or physical therapist about your routine."
+        ],
+        "skip": "Skip the Small Bridge (movement 5) if the pain travels down your leg.",
+        "talk": "Stop and talk to a doctor if the pain spreads further, or if you notice new numbness or weakness."
+      },
+      {
+        "id": "disc",
+        "title": "Disc bulge or herniation (diagnosed)",
+        "gentleOnly": true,
+        "who": "A doctor told you that you have a bulging or herniated disc.",
+        "adapt": [
+          "Talk to your doctor or physical therapist before you begin.",
+          "Use the Gentle level only.",
+          "Avoid strong bending forward, and keep every movement small."
+        ],
+        "skip": "Skip any movement that increases your symptoms.",
+        "talk": "Before you start, and again if any symptom gets worse."
+      },
+      {
+        "id": "stenosis-ddd",
+        "title": "Spinal stenosis and degenerative disc disease",
+        "gentleOnly": true,
+        "who": "A doctor told you that you have spinal stenosis or degenerative disc disease.",
+        "adapt": [
+          "Talk to your doctor or physical therapist before you begin.",
+          "Use the Gentle level only.",
+          "Do not arch your back strongly, and keep every movement small."
+        ],
+        "skip": "Skip any movement that increases your symptoms.",
+        "talk": "Before you start, and again if any symptom gets worse."
+      }
+    ],
+    "flareUp": {
+      "id": "flare-up",
+      "title": "Flare-up day",
+      "intro": "Some days your pain is well above your normal. That can happen. Be kind to yourself today.",
+      "steps": [
+        "Do only the breathing, for about 3 minutes. Or rest.",
+        "Do not make up for it tomorrow. Continue with your normal session.",
+        "Choose the Gentle level for the next few days.",
+        "Log your pain honestly in your diary."
+      ],
+      "talk": "If the flare-up lasts more than 2 days, or if it is getting worse, talk to your doctor. Use the Safety page for warning signs."
+    }
+  },
+  "tipCategories": [
+    "Mornings and getting up",
+    "Sitting at a desk",
+    "Car, plane and long trips",
+    "Standing and walking",
+    "Lifting, carrying and picking up kids",
+    "Sleeping and lying down",
+    "Hobbies and play",
+    "One-minute resets",
+    "Staying consistent"
+  ],
+  "tips": [
+    {"c": 0, "t": "Get up in stages", "x": "Roll onto your side, push up with your arms, and sit for a moment before you stand."},
+    {"c": 0, "t": "A two-minute bed routine", "x": "Before you get up, take a few slow belly breaths and gently bend and straighten your knees."},
+    {"c": 0, "t": "Sit before you stand", "x": "Rest on the edge of the bed for ten slow breaths so your body can wake up."},
+    {"c": 0, "t": "Start with something warm", "x": "A warm shower or a warm drink can make the morning feel more comfortable."},
+    {"c": 0, "t": "Plan your first move", "x": "Decide the night before what you will do when you wake. A plan keeps the morning calm."},
+    {"c": 0, "t": "Sit to put on shoes", "x": "Use a chair or the edge of the bed instead of bending over."},
+    {"c": 0, "t": "Soften your knees at the sink", "x": "Keep a small bend in your knees and rest a hand on the counter while you brush your teeth."},
+    {"c": 0, "t": "Reach up slowly", "x": "Raise your arms overhead as you breathe in and lower them as you breathe out. Stop if anything pinches."},
+    {"c": 0, "t": "Keep first steps small", "x": "Take short, easy steps for the first minute after you stand."},
+    {"c": 0, "t": "Pair it with your morning drink", "x": "Do your 7 minutes right before or after your coffee or tea so it becomes a habit."},
+
+    {"c": 1, "t": "Set a 30-minute timer", "x": "Stand up or change position every 30 minutes. A short walk for water counts."},
+    {"c": 1, "t": "Raise your screen", "x": "Place the top of your screen near eye height so you do not lean forward."},
+    {"c": 1, "t": "Keep both feet supported", "x": "Rest your feet flat on the floor. If they dangle, use a box or a stack of books."},
+    {"c": 1, "t": "Sit all the way back", "x": "Let the chair support you. Avoid perching on the edge of the seat."},
+    {"c": 1, "t": "Relax your elbows", "x": "Set your chair and desk so your elbows rest comfortably at your sides, bent about 90 degrees."},
+    {"c": 1, "t": "Try a small cushion", "x": "A rolled towel behind your lower back can make sitting feel more comfortable."},
+    {"c": 1, "t": "Mix sitting and standing", "x": "If you have a standing desk, switch positions through the day."},
+    {"c": 1, "t": "Bring your phone up", "x": "Lift your phone to eye level instead of bending your neck down."},
+    {"c": 1, "t": "Take calls on your feet", "x": "Stand up or walk a little during phone calls."},
+    {"c": 1, "t": "Do not cross legs for long", "x": "Switch sides often, or keep both feet on the floor."},
+    {"c": 1, "t": "Roll your shoulders", "x": "Slowly roll your shoulders back a few times every hour."},
+    {"c": 1, "t": "Keep things within reach", "x": "Place your mouse and phone close so you do not have to twist or stretch."},
+    {"c": 1, "t": "Look far away", "x": "Every 20 minutes, look at something far away for 20 seconds and relax your jaw."},
+    {"c": 1, "t": "End the workday with a walk", "x": "A few minutes of easy walking helps you shift gears after sitting."},
+
+    {"c": 2, "t": "Stop every hour", "x": "On long drives, plan a short stop each hour to stand and walk around."},
+    {"c": 2, "t": "Sit close to the wheel", "x": "Sit close enough that your knees are slightly bent and your arms are relaxed."},
+    {"c": 2, "t": "Support your lower back", "x": "A small rolled towel or cushion can fill the gap behind your lower back."},
+    {"c": 2, "t": "Sit first, then swing your legs", "x": "Sit down on the car seat first, then bring both legs in together."},
+    {"c": 2, "t": "Take your wallet out", "x": "Sitting on a thick wallet tilts your hips. Put it in a bag or on the dashboard."},
+    {"c": 2, "t": "Set your headrest", "x": "Adjust it so your head rests lightly against it, not pushed forward."},
+    {"c": 2, "t": "Choose an aisle seat", "x": "On a plane, an aisle seat makes it easier to stand and walk."},
+    {"c": 2, "t": "Walk the aisle", "x": "When it is allowed, stand and walk the aisle about once an hour."},
+    {"c": 2, "t": "Circle your ankles", "x": "While you sit, circle your ankles and gently shift your weight from time to time."},
+    {"c": 2, "t": "Lift luggage in stages", "x": "Ask for help with heavy bags, or lift them close to your body with your knees bent."},
+    {"c": 2, "t": "Pack lighter", "x": "A lighter bag is easier to carry. Use a bag with wheels when you can."},
+    {"c": 2, "t": "Plan a gentle first day", "x": "After a long trip, start with an easy walk and your short routine."},
+
+    {"c": 3, "t": "Shift your weight", "x": "Change which leg carries your weight every few minutes."},
+    {"c": 3, "t": "Use a low footrest", "x": "When you stand for a while, rest one foot on a low step and switch sides."},
+    {"c": 3, "t": "Pick comfortable shoes", "x": "Shoes with cushioning and good support are kinder on long days."},
+    {"c": 3, "t": "Take short, easy steps", "x": "Walk at a comfortable pace with relaxed shoulders."},
+    {"c": 3, "t": "Stand tall, not stiff", "x": "Imagine a string lifting the top of your head. Keep your knees soft."},
+    {"c": 3, "t": "Lean while you wait", "x": "In a line, lean a hip lightly against a wall or counter."},
+    {"c": 3, "t": "Stroll after meals", "x": "A short walk after eating is an easy habit to keep."},
+    {"c": 3, "t": "Let your arms swing", "x": "Allow your arms to move freely when you walk."},
+    {"c": 3, "t": "Add a soft mat", "x": "At the kitchen counter or sink, a cushioned mat can make standing more comfortable."},
+    {"c": 3, "t": "Take the easy route", "x": "On stiff days, choose a flat path or the elevator."},
+
+    {"c": 4, "t": "Get close to the object", "x": "Stand near what you are lifting, with your feet about shoulder-width apart."},
+    {"c": 4, "t": "Bend your knees", "x": "Bend at your knees and hips and keep your back long."},
+    {"c": 4, "t": "Hold things close", "x": "Carry objects close to your chest or hip."},
+    {"c": 4, "t": "Turn with your feet", "x": "When you change direction, move your feet instead of twisting your back."},
+    {"c": 4, "t": "Test the weight first", "x": "Nudge the item before you lift. Ask for help if it is heavy."},
+    {"c": 4, "t": "Split heavy loads", "x": "Carry two lighter loads instead of one heavy load."},
+    {"c": 4, "t": "Kneel to pick things up", "x": "To pick up toys from the floor, kneel on one knee instead of bending over."},
+    {"c": 4, "t": "Sit and bring kids close", "x": "Sit down and let your child come to you before you stand up with them."},
+    {"c": 4, "t": "Meet little ones at their level", "x": "Crouch or sit next to your child instead of bending over them."},
+    {"c": 4, "t": "Share the load", "x": "Ask someone to hold the other end of big or awkward items."},
+    {"c": 4, "t": "Push, do not pull", "x": "Pushing a heavy item is usually easier on your body than pulling it."},
+    {"c": 4, "t": "Breathe out as you lift", "x": "Exhale gently as you lift. Move smoothly, not with a jerk."},
+
+    {"c": 5, "t": "Pillow between your knees", "x": "If you sleep on your side, a pillow between your knees can keep your hips comfortable."},
+    {"c": 5, "t": "Pillow under your knees", "x": "If you sleep on your back, try a pillow under your knees."},
+    {"c": 5, "t": "Find your pillow height", "x": "Your neck should feel level, not pushed up or down."},
+    {"c": 5, "t": "Roll out of bed", "x": "Roll onto your side and push up with your arms to sit."},
+    {"c": 5, "t": "Pick a supportive surface", "x": "Choose a mattress that feels supportive and comfortable to you."},
+    {"c": 5, "t": "Wind down for ten minutes", "x": "Dim the lights and breathe slowly before bed."},
+    {"c": 5, "t": "Take a warm evening shower", "x": "A warm shower can help your body feel relaxed before sleep."},
+    {"c": 5, "t": "Keep the room cool", "x": "Many people sleep more comfortably in a cool, dark room."},
+    {"c": 5, "t": "Breathe slowly in bed", "x": "Take five slow belly breaths before you fall asleep."},
+    {"c": 5, "t": "Change position when stiff", "x": "If you feel stiff during the night, gently change your position."},
+    {"c": 5, "t": "Avoid long couch slouching", "x": "For long TV sessions, sit upright with a cushion behind your back."},
+    {"c": 5, "t": "Keep a regular bedtime", "x": "A steady schedule on most nights makes mornings easier."},
+
+    {"c": 6, "t": "Warm up before gardening", "x": "Walk for a few minutes and move your arms before you start."},
+    {"c": 6, "t": "Use a kneeling pad", "x": "Kneel on a cushion instead of bending over for long periods."},
+    {"c": 6, "t": "Choose long-handled tools", "x": "Long handles mean less bending."},
+    {"c": 6, "t": "Switch garden tasks", "x": "Alternate digging, planting, and lighter jobs."},
+    {"c": 6, "t": "Warm up before golf", "x": "Walk a little and take a few easy swings before the first tee."},
+    {"c": 6, "t": "Lighten your golf bag", "x": "Use a cart or carry fewer clubs."},
+    {"c": 6, "t": "Ease into swimming", "x": "Start with gentle laps and rest between them."},
+    {"c": 6, "t": "Pick the easiest stroke", "x": "Choose the swimming style that feels most comfortable today."},
+    {"c": 6, "t": "Easy-paced dog walks", "x": "Keep the leash short and the pace comfortable."},
+    {"c": 6, "t": "Keep the leash close", "x": "Hold it near your body so sudden pulls feel less jarring."},
+    {"c": 6, "t": "Break projects into parts", "x": "Split a big task into short sessions with breaks in between."},
+    {"c": 6, "t": "Stop early, enjoy more", "x": "End your activity while you still feel good."},
+
+    {"c": 7, "t": "Three slow belly breaths", "x": "Place a hand on your belly and breathe in slowly. Breathe out even more slowly."},
+    {"c": 7, "t": "Reach for the ceiling", "x": "Stand and reach up as you breathe in. Lower your arms as you breathe out."},
+    {"c": 7, "t": "Walk to the window", "x": "Stand up, walk to a window, and look outside for a minute."},
+    {"c": 7, "t": "Roll your shoulders", "x": "Roll them back slowly five times, then forward five times."},
+    {"c": 7, "t": "Turn your neck gently", "x": "Turn your head slowly from side to side, only as far as feels comfortable."},
+    {"c": 7, "t": "Stand up, sit down slowly", "x": "Stand, take one breath, and sit back down with control."},
+    {"c": 7, "t": "Shake out your hands", "x": "Loosen your wrists and fingers for 20 seconds."},
+    {"c": 7, "t": "Pump your ankles", "x": "Point and flex your feet ten times while you sit."},
+    {"c": 7, "t": "Open your chest gently", "x": "Place your forearms on a doorframe and lean slightly, only to a comfortable stretch."},
+    {"c": 7, "t": "Stand tall against a wall", "x": "Let your head, shoulders, and hips rest lightly on a wall for one minute."},
+    {"c": 7, "t": "Sip water and breathe", "x": "Drink a few sips of water and take three calm breaths."},
+
+    {"c": 8, "t": "Link it to a habit", "x": "Do your 7 minutes right after something you already do every day."},
+    {"c": 8, "t": "Pick one time of day", "x": "A regular time makes your routine easier to remember."},
+    {"c": 8, "t": "Missed a day? Start today", "x": "Just continue today. Never double up."},
+    {"c": 8, "t": "Keep your mat visible", "x": "When your space is ready, it is easier to begin."},
+    {"c": 8, "t": "Only do the first step", "x": "Tell yourself you will only do the first movement. Most days you will keep going."},
+    {"c": 8, "t": "Use your diary", "x": "A quick log each day shows your own progress over time."},
+    {"c": 8, "t": "Celebrate small wins", "x": "Every finished session counts. Notice it."},
+    {"c": 8, "t": "Tell someone your plan", "x": "Share your goal with a friend or family member for a little support."}
+  ],
+  "messages": [
+    {
+      "day": 1,
+      "title": "Welcome to day one",
+      "text": "Welcome. Today is about getting comfortable. Your session takes 7 minutes. Move slowly, keep every movement small, and stop if something does not feel right. The Safety page is always one tap away. Please keep following your doctor's plan.",
+      "action": {"label": "Read Safety", "route": "#/safety"}
+    },
+    {
+      "day": 3,
+      "title": "Keep it small",
+      "text": "Missed a day? That is completely fine. Just continue from today and never double up. A small, regular session is better than a big one. Pick a time that works and keep it simple.",
+      "action": {"label": "Go to Today", "route": "#/today"}
+    },
+    {
+      "day": 7,
+      "title": "One week in",
+      "text": "You have been practicing for a week. Open your diary and look at your own notes. If you feel comfortable, you can try the Standard level. If you are not sure, stay with Gentle. There is no rush.",
+      "action": {"label": "See my progress", "route": "#/progress"}
+    },
+    {
+      "day": 10,
+      "title": "Make it a habit",
+      "text": "Link your 7 minutes to something you already do each day, like your morning coffee or brushing your teeth. A fixed cue makes the routine easier to remember. You can also add a daily reminder to your phone calendar.",
+      "action": {"label": "Add a reminder", "route": "#/help/settings"}
+    },
+    {
+      "day": 14,
+      "title": "Two weeks in",
+      "text": "Take a look at your chart. Notice how your numbers move from day to day. If a particular situation is on your mind, the Troubleshooting Guide has a page for it.",
+      "action": {"label": "Open the guide", "route": "#/guides/troubleshooting"}
+    },
+    {
+      "day": 21,
+      "title": "Three weeks in",
+      "text": "Here is a tip for the week: stand up and change position every 30 minutes while you sit. Remember, if you have a day when your pain is well above normal, the Flare-up day page tells you what to do.",
+      "action": {"label": "Flare-up day", "route": "#/guides/troubleshooting/flare-up"}
+    },
+    {
+      "day": 30,
+      "title": "One month in",
+      "text": "One month of practice. Take a moment to look back at your diary. If you would like to, you can tell us how your routine is going. We only share a story with your written permission.",
+      "action": {"label": "Share your story", "route": "#/help/story"}
+    },
+    {
+      "day": 45,
+      "title": "Keep it fresh",
+      "text": "Try some new Everyday Tips this week. If you are comfortable at your current level, you can also try the next level. If not, stay where you are. Your comfort comes first.",
+      "action": {"label": "Browse the tips", "route": "#/guides/tips"}
+    },
+    {
+      "day": 55,
+      "title": "Your guarantee window",
+      "text": "Your 60-day guarantee window ends in 5 days. If you would like to talk to us or ask for a refund, send an email to our support team with the email address you used to buy. There is no pressure and no questions about it.",
+      "action": {"label": "How the guarantee works", "route": "#/help/guarantee"}
+    },
+    {
+      "day": 60,
+      "title": "Day 60",
+      "text": "You reached day 60. Take a look at your diary and your chart. This Member Area stays open, so you can keep going at your own pace. Thank you for practicing with us.",
+      "action": {"label": "See my progress", "route": "#/progress"}
+    }
+  ],
+  "faq": [
+    {"q": "What is BackSwitch?", "a": "It is a guided 7-minute daily routine of gentle movements, with three guides and a personal diary. It is general exercise information. It is not medical advice."},
+    {"q": "How long does a session take?", "a": "Seven minutes. The timer guides you through one movement at a time, so you do not need to watch the clock."},
+    {"q": "Do I need any equipment?", "a": "No. You need a flat, firm surface like a mat or a firm bed, comfortable clothes, and your phone propped up where you can see it."},
+    {"q": "When should I do my session?", "a": "Any time that suits you. Many people pick the same time every day. You can add a daily reminder to your phone calendar in Settings."},
+    {"q": "What if I miss a day?", "a": "Just continue today. Never double up. A small, regular session is better than a long one."},
+    {"q": "What is the difference between Gentle and Standard?", "a": "Both take 7 minutes. Gentle uses smaller movements and shorter holds. If you are not sure, start with Gentle. You can switch any time in Settings."},
+    {"q": "Can I use this with my doctor's treatment?", "a": "Yes. Please follow your doctor's plan. Do not stop or change any medicine, therapy, or other care without talking to your doctor first."},
+    {"q": "What if I feel pain during a session?", "a": "Tap Stop right away. Light effort is normal, but pain is not. The Safety page lists the warning signs and when to get care."},
+    {"q": "Where is my progress saved?", "a": "On this device and browser. If you clear your browser data, use a private window, or switch to a new phone, you may lose it. Use \"Copy my progress\" in Help to keep it safe."},
+    {"q": "How do I move to a new phone?", "a": "On your old phone, open Help, then Your progress, and tap Copy my progress. On your new phone, paste the text into Paste to restore."},
+    {"q": "How does the 60-day guarantee work?", "a": "Send an email to our support team within 60 days. Use the email address from your purchase. We will refund you. There is no pressure and no guilt."},
+    {"q": "Who can I contact for help?", "a": "Email our support team. You will find the address in Help. Please include the email you used to buy."}
+  ],
+  "guarantee": {
+    "title": "Your 60-day guarantee",
+    "paragraphs": [
+      "You have 60 days to decide if BackSwitch is right for you.",
+      "If you would like a refund, send an email to our support team at any time within those 60 days. Please write from the email address you used to buy, or include it in your message.",
+      "There is no guilt and no pressure. We will take care of your refund."
+    ]
+  },
+  "story": {
+    "title": "Share your story",
+    "text": "If you'd like, tell us how your routine is going. We only share a story with your written permission.",
+    "consent": "By sending your story you are not giving permission to publish it. We will ask for your written permission first."
+  },
+  "dataNotice": "Your progress is saved on this device and browser. If you clear your browser data, use a private window, or switch to a new phone, you may lose it. To keep it safe, open Help and tap 'Copy my progress'."
+}
